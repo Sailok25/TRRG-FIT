@@ -1,3 +1,4 @@
+/* Apartat section: horari */
 .horari {
     width: 100%;
     padding: 50px 20px;
@@ -19,24 +20,27 @@ table {
     box-shadow: 4px 10px #B11F00;
 }
 
-th, td {
-    padding: 15px;
-    border-radius: 15px;
-}
-
 th {
     background-color: #B11F00;
     color: white;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 td {
     background-color: white;
     border-radius: 5px;
     text-align: center;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 td div {
     overflow: hidden;
+}
+
+td div:hover {
+    overflow: visible;
 }
 
 td div p {
@@ -56,6 +60,6 @@ td div p a:hover {
     background-color: #FF00DD;
 }
 
-td div:hover {
-    overflow: visible;
-}
+
+/* Apartat section: preguntes-frequents
+   aquest está al estils.css ja que forma part de la pagina principal */
