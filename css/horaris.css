@@ -1,6 +1,7 @@
 /* Apartat section: horari */
 .horari {
-    width: 100%;
+    width: 1980px;
+    height: auto;
     padding: 50px 20px;
 }
 
@@ -14,7 +15,7 @@
 
 table {
     margin: 0 auto;
-    width: 100%;
+    width: auto;
     border-radius: 15px;
     border: 1px solid #B11F00;
     box-shadow: 4px 10px #B11F00;
@@ -25,33 +26,24 @@ th {
     color: white;
     padding: 10px;
     border-radius: 15px;
+    font-family: "Oswald", sans-serif;
 }
 
 td {
     background-color: white;
-    border-radius: 5px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
-}
-
-td div {
-    overflow: hidden;
-}
-
-td div:hover {
-    overflow: visible;
-}
-
-td div p {
-    margin: 5px 0;
+    width: 300px;
+    height: 60px;
+    font-family: "Oswald", sans-serif;
 }
 
 td div p a {
     display: none;
 }
 
-td div p a:hover {
+td div:hover p a {
     display: block;
     background-color: #B11F00;
     border-radius: 5rem;
