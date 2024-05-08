@@ -1,0 +1,186 @@
+/* Apartat section: logreg*/
+#loginpanel {
+    width: 1980px;
+    height: auto;
+    padding: 50px 10px 50px 10px;
+    color: #000000;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#contingutlogin {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #B11F00;
+    box-shadow: 5px 10px #B11F00;
+}
+
+contingutlogin img {
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+#contingutlogin h1 {
+    font-size: 50px;
+    text-decoration-line:underline;
+    color: #B11F00;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+#formularilogin {
+    padding: 30px 0px 30px 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#formularilogin input {
+    font-size: 17px;
+    height: 2.5rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+#formularilogin label {
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+#loginbt {  
+    background-color: #B11F00;
+    width: 18.5rem;
+    color: white;
+}
+
+#loginbt:hover {
+    background-color: #B11F00;
+    width: 18.5rem;
+}
+
+#contingutlogin p{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 0px 10px 0px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+#contingutlogin a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #B11F00;
+}
+
+
+
+
+
+
+/* Apartat section: registerpanel*/
+#registerpanel {
+    width: 1980px;
+    height: auto;
+    padding: 50px 10px 50px 10px;
+    color: #000000;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#contingutregister {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #B11F00;
+    box-shadow: 5px 10px #B11F00;
+}
+
+
+contingutregister img {
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+#contingutregister h1 {
+    font-size: 50px;
+    text-decoration-line:underline;
+    color: #B11F00;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+#formulariregister {
+    padding: 30px 0px 30px 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#formulariregister input {
+    font-size: 17px;
+    height: 2.5rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+#formulariregister label {
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+#registerbt {  
+    background-color: #B11F00;
+    width: 18.5rem;
+    color: white;
+}
+
+#registerbt:hover {
+    background-color: #B11F00;
+    width: 18.5rem;
+}
+
+#contingutregister p{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 0px 10px 0px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+#contingutregister a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #B11F00;
+}
+
+#avis{
+    padding: 25px;
+}
+
+#avis p{
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
