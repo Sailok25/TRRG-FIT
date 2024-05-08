@@ -3,9 +3,9 @@
     transition: 0.5s;
 }
 #activitats{
-    width: 1980px;
+    width: 198rem;
     height: auto;
-    padding: 50px 0px 100px 0px;
+    padding: 5rem 0px 10rem 0px;
     
 }
 
@@ -20,45 +20,45 @@
 
 
 #conjuntactivitats h2 {
-    padding-bottom: 10px;
-    font-size: 40px;
+    padding-bottom: 1rem;
+    font-size: 4rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
     text-decoration:underline;
     text-align: justify;
     color: #B11F00;
     align-self: center;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 #conjuntactivitats h2:nth-of-type(2){
-    padding-top: 150px;
+    padding-top: 15rem;
 }
 
 .activitats-colectives{
-    width: 1600px;
+    width: 160rem;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-self: center;
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 .activitats-lliures{
-    width: 1600px;
+    width: 160rem;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-self: center;
-    padding-top: 20px;
+    padding-top: 2rem;
 }
 
 .activitat {
     width: auto;
     height: auto;
-    margin: 10px 50px 40px 50px;
+    margin: 1rem 5rem 4rem 5rem;
     color: #000000;
     
 }
@@ -69,26 +69,26 @@
 }
 
 .activitat p {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: "Oswald", sans-serif;
     color: #000000;
 }
 
 .activitat img {
-    width: 180px;
+    width: 18rem;
     color: #B11F00;
 }
 
 .reservarbtn {
     display: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     color: white;
     background-color: #B11F00;
     border: none;
-    border-radius: 5px;
+    border-radius: 5rem;
     cursor: pointer;
 }
 
@@ -97,18 +97,18 @@
 }
 
 .separadorimgp{
-    padding: 10px;
+    padding: 1rem;
     display: flex;
     align-content: center;
     flex-direction: column;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 1rem;
     border: 1px solid #B11F00;
-    box-shadow: 4px 10px #B11F00;
+    box-shadow: 4px 1rem #B11F00;
 }
 
 .separadorbtn{
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
     display: flex;
     align-content: center;
     flex-direction: column;

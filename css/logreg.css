@@ -1,8 +1,8 @@
 /* Apartat section: logreg*/
 #loginpanel {
-    width: 1980px;
+    width: 198rem;
     height: auto;
-    padding: 50px 10px 50px 10px;
+    padding: 5rem 1rem 5rem 1rem;
     color: #000000;
     display: flex;
     text-align: center;
@@ -17,18 +17,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 2rem;
     border: 2px solid #B11F00;
     box-shadow: 5px 10px #B11F00;
 }
 
 contingutlogin img {
-    width: 100px;
-    padding-bottom: 20px;
+    width: 1rem;
+    padding-bottom: 2rem;
 }
 
 #contingutlogin h1 {
-    font-size: 50px;
+    font-size: 5rem;
     text-decoration-line:underline;
     color: #B11F00;
     text-transform: uppercase;
@@ -36,7 +36,8 @@ contingutlogin img {
 }
 
 #formularilogin {
-    padding: 30px 0px 30px 0px;
+    padding: 3rem 0px 3rem 0px;
+    width: 29.6rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -44,14 +45,14 @@ contingutlogin img {
 }
 
 #formularilogin input {
-    font-size: 17px;
-    height: 2.5rem;
-    border-radius: 20px;
-    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin-bottom: 1.6rem;
 }
 
 #formularilogin label {
-    font-size: 20px;
+    font-size: 2rem;
     color: #000000;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
@@ -59,17 +60,12 @@ contingutlogin img {
 
 #loginbt {  
     background-color: #B11F00;
-    width: 18.5rem;
+    width: auto;
     color: white;
 }
 
-#loginbt:hover {
-    background-color: #B11F00;
-    width: 18.5rem;
-}
-
 #contingutlogin p{
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 0px 0px 10px 0px;
     color: black;
@@ -88,11 +84,12 @@ contingutlogin img {
 
 
 
+
 /* Apartat section: registerpanel*/
 #registerpanel {
-    width: 1980px;
+    width: 198rem;
     height: auto;
-    padding: 50px 10px 50px 10px;
+    padding: 5rem 1rem 5rem 1rem;
     color: #000000;
     display: flex;
     text-align: center;
@@ -107,60 +104,27 @@ contingutlogin img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 2rem;
     border: 2px solid #B11F00;
     box-shadow: 5px 10px #B11F00;
 }
 
 
 contingutregister img {
-    width: 100px;
-    padding-bottom: 20px;
+    width: 10rem;
+    padding-bottom: 2rem;
 }
 
 #contingutregister h1 {
-    font-size: 50px;
+    font-size: 5rem;
     text-decoration-line:underline;
     color: #B11F00;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
 }
 
-#formulariregister {
-    padding: 30px 0px 30px 0px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-#formulariregister input {
-    font-size: 17px;
-    height: 2.5rem;
-    border-radius: 20px;
-    margin-bottom: 1rem;
-}
-
-#formulariregister label {
-    font-size: 20px;
-    color: #000000;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
-}
-
-#registerbt {  
-    background-color: #B11F00;
-    width: 18.5rem;
-    color: white;
-}
-
-#registerbt:hover {
-    background-color: #B11F00;
-    width: 18.5rem;
-}
-
 #contingutregister p{
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 0px 0px 10px 0px;
     color: black;
@@ -175,11 +139,11 @@ contingutregister img {
 }
 
 #avis{
-    padding: 25px;
+    padding: 2.5rem;
 }
 
 #avis p{
-    font-size: 20px;
+    font-size: 2rem;
     color: #000000;
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

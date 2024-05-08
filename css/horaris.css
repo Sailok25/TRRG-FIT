@@ -1,22 +1,23 @@
 /* Apartat section: horari */
 .horari {
-    width: 1980px;
+    width: 198rem;
     height: auto;
-    padding: 50px 20px;
+    padding: 5rem 2rem;
 }
 
 .horari h2 {
-    font-size: 40px;
+    font-size: 4rem;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     color: #B11F00;
     text-align: center;
+    padding-bottom: 2rem ;
 }
 
 table {
     margin: 0 auto;
     width: auto;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     border: 1px solid #B11F00;
     box-shadow: 4px 10px #B11F00;
 }
@@ -25,18 +26,20 @@ th {
     background-color: #B11F00;
     color: white;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     font-family: "Oswald", sans-serif;
+    font-size: 2rem;
 }
 
 td {
     background-color: white;
     text-align: center;
     padding: 5px;
-    border-radius: 15px;
-    width: 300px;
-    height: 60px;
+    border-radius: 1.5rem;
+    width: 30rem;
+    height: 6rem;
     font-family: "Oswald", sans-serif;
+    font-size: 2rem;
 }
 
 td div p a {
@@ -47,7 +50,7 @@ td div:hover p a {
     display: block;
     background-color: #B11F00;
     border-radius: 5rem;
-    padding: 8px 15px;
+    padding: 8px 1.5rem;
     color: white;
     text-decoration: none;
 }
