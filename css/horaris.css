@@ -48,18 +48,17 @@ td div p {
 }
 
 td div p a {
-    display: inline-block;
+    display: none;
+}
+
+td div p a:hover {
+    display: block;
     background-color: #B11F00;
     border-radius: 5rem;
     padding: 8px 15px;
     color: white;
     text-decoration: none;
 }
-
-td div p a:hover {
-    background-color: #FF00DD;
-}
-
 
 /* Apartat section: preguntes-frequents
    aquest está al estils.css ja que forma part de la pagina principal */
