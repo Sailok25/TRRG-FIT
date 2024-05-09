@@ -37,7 +37,7 @@ td {
     padding: 5px;
     border-radius: 1.5rem;
     width: 30rem;
-    height: 6rem;
+    height: 9rem;
     font-family: "Oswald", sans-serif;
     font-size: 2rem;
 }
@@ -56,4 +56,37 @@ td div:hover p a {
 }
 
 /* Apartat section: preguntes-frequents
-   aquest está al estils.css ja que forma part de la pagina principal */
+   aquest está al estils.css ja que forma part de la pagina principal
+ */
+
+
+
+
+
+/*******************/
+/*** MEDIA QUERY ***/
+/*******************/
+
+
+/* MQ Mòvil */
+@media only screen and (max-width: 480px){
+
+}
+
+
+
+
+
+/* MQ Tablet */
+@media only screen and (min-width: 481px) and (max-width:990px){
+    
+}
+
+
+
+
+
+/* MQ Portatil */
+@media only screen and (min-width: 991px) and (max-width:1980px){
+    
+}

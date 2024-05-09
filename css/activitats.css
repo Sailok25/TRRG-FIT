@@ -114,3 +114,50 @@
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
+
+/*******************/
+/*** MEDIA QUERY ***/
+/*******************/
+
+
+/* MQ Mòvil */
+@media only screen and (max-width: 480px){
+    #activitats{
+        width: 100%;
+        height: auto;
+    }
+
+    #conjuntactivitats {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .activitats-colectives {
+        width: auto;
+        height: auto;
+    }
+
+    .activitat {
+        width: 40%;
+        text-align: center;
+        margin: 2rem;
+    }
+
+    .activitat img {
+        width: 90%;
+    }
+}
+
+
+
+
+
+/* MQ Tablet */
+@media only screen and (min-width: 481px) and (max-width:990px){
+    
+}

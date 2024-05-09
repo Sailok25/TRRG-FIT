@@ -1,0 +1,8 @@
+<!ELEMENT competicio (foto, nom, data, hora, lloc, places, modalitat)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT places (#PCDATA)>
+<!ELEMENT modalitat (#PCDATA)>

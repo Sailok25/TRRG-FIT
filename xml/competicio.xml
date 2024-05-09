@@ -1,0 +1,118 @@
+<!DOCTYPE competicio SYSTEM "competicio.dtd">
+<competicio>
+    <foto>imagen1.jpg</foto>
+    <nom>Entre Terres</nom>
+    <data>2024-05-15</data>
+    <hora>09:00:00</hora>
+    <lloc>Plaça Major - Reus</lloc>
+    <places>50</places>
+    <modalitat>Ciclisme</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen2.jpg</foto>
+    <nom>Pedals Dona</nom>
+    <data>2024-05-20</data>
+    <hora>10:30:00</hora>
+    <lloc>Carrer del Bisbe Morgades - Tarragona</lloc>
+    <places>40</places>
+    <modalitat>Ciclisme</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen3.jpg</foto>
+    <nom>La Ruta del Cisterer</nom>
+    <data>2024-05-25</data>
+    <hora>08:00:00</hora>
+    <lloc>Plaça Major - Vimbodí i Poblet</lloc>
+    <places>60</places>
+    <modalitat>Ciclisme</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen4.jpg</foto>
+    <nom>SalsaFest</nom>
+    <data>2024-06-01</data>
+    <hora>20:00:00</hora>
+    <lloc>Passeig de les Palmeres - Salou</lloc>
+    <places>30</places>
+    <modalitat>Salsa</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen5.jpg</foto>
+    <nom>FreeStyle Dance URG</nom>
+    <data>2024-06-05</data>
+    <hora>18:00:00</hora>
+    <lloc>Plaça de la Vila - Lleida</lloc>
+    <places>25</places>
+    <modalitat>Hip-Hop</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen6.jpg</foto>
+    <nom>Campionat Dansa Urbana</nom>
+    <data>2024-06-10</data>
+    <hora>12:00:00</hora>
+    <lloc>Av. Catalunya - Urgell</lloc>
+    <places>35</places>
+    <modalitat>Hip-Hop</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen7.jpg</foto>
+    <nom>Trofeu Cervera dances mixtes</nom>
+    <data>2024-06-15</data>
+    <hora>17:00:00</hora>
+    <lloc>Plaça Universitat - Cervera</lloc>
+    <places>20</places>
+    <modalitat>Hip-Hop</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen8.jpg</foto>
+    <nom>Repte de Roca</nom>
+    <data>2024-06-20</data>
+    <hora>09:30:00</hora>
+    <lloc>Parc d'Escalada - Montserrat</lloc>
+    <places>30</places>
+    <modalitat>Escalada</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen9.jpg</foto>
+    <nom>Escalada en bloc Gavà</nom>
+    <data>2024-06-25</data>
+    <hora>14:00:00</hora>
+    <lloc>Carrer de Sant Pere - Gavà</lloc>
+    <places>25</places>
+    <modalitat>Escalada</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen10.jpg</foto>
+    <nom>Campionat de Catalunya de Clubs Màster</nom>
+    <data>2024-07-01</data>
+    <hora>11:00:00</hora>
+    <lloc>Estadi Municipal - Barcelona</lloc>
+    <places>50</places>
+    <modalitat>Atletisme</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen11.jpg</foto>
+    <nom>Gran Premi Sauleda</nom>
+    <data>2024-07-05</data>
+    <hora>18:30:00</hora>
+    <lloc>Carrer de la Riera - Mataró</lloc>
+    <places>40</places>
+    <modalitat>Atletisme</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen12.jpg</foto>
+    <nom>Trofeu Tatami Sport</nom>
+    <data>2024-07-10</data>
+    <hora>16:00:00</hora>
+    <lloc>Poliesportiu Municipal - Vic</lloc>
+    <places>30</places>
+    <modalitat>Boxeo</modalitat>
+</competicio>
+<competicio>
+    <foto>imagen13.jpg</foto>
+    <nom>IV Open Padel</nom>
+    <data>2024-07-15</data>
+    <hora>10:00:00</hora>
+    <lloc>Club de Pàdel - L'Hospitalet de Llobregat</lloc>
+    <places>60</places>
+    <modalitat>Padel</modalitat>
+</competicio>

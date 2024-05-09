@@ -79,6 +79,12 @@ contingutlogin img {
     color: #B11F00;
 }
 
+#contingutlogin img{
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+}
+
 
 
 
@@ -138,6 +144,12 @@ contingutregister img {
     color: #B11F00;
 }
 
+#contingutregister img{
+    width: 80%;
+    height: auto;
+    padding-top: 2rem;
+}
+
 #avis{
     padding: 2.5rem;
 }
@@ -147,4 +159,57 @@ contingutregister img {
     color: #000000;
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+/*******************/
+/*** MEDIA QUERY ***/
+/*******************/
+
+
+/* MQ Mòvil */
+@media only screen and (max-width: 480px){
+    main{
+        justify-content: center;
+    }
+
+
+    /* Apartat login*/
+    #loginpanel{
+        width: auto;
+    }
+
+    #contingutlogin {
+        width: 95%;
+    }
+
+    #contingutlogin img{
+        width: 80%;
+    }
+
+
+    /* Apartat register*/
+    #registerpanel{
+        width: auto;
+    }
+
+    #contingutregister {
+        width: 85%;
+    }
+
+    #contingutregister img{
+        width: 80%;
+    }
+}
+
+
+
+
+
+/* MQ Tablet */
+@media only screen and (min-width: 481px) and (max-width:990px){
+    
 }
