@@ -211,5 +211,41 @@ contingutregister img {
 
 /* MQ Tablet */
 @media only screen and (min-width: 481px) and (max-width:990px){
-    
+    main{
+        justify-content: center;
+    }
+
+
+    /* Apartat login*/
+    #loginpanel{
+        width: auto;
+    }
+
+    #contingutlogin {
+        width: 100%;
+    }
+
+    #contingutlogin img{
+        width: 80%;
+    }
+
+
+    /* Apartat register*/
+    #registerpanel{
+        width: auto;
+    }
+
+    #contingutregister {
+        width: 100%;
+    }
+
+    #contingutregister img{
+        width: 80%;
+        height: auto;
+        padding-top: 2rem;
+}
+
+    #avis {
+        width: 400px;
+    }
 }

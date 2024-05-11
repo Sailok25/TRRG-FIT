@@ -11,7 +11,7 @@
     text-transform: uppercase;
     color: #B11F00;
     text-align: center;
-    padding-bottom: 2rem ;
+    padding-bottom: 2rem;
 }
 
 table {
@@ -69,7 +69,7 @@ td div:hover p a {
 
 
 /* MQ Mòvil */
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
 
     /* Apartat horari*/
     .horari {
@@ -148,6 +148,76 @@ td div:hover p a {
 
 
 /* MQ Tablet */
-@media only screen and (min-width: 481px) and (max-width:990px){
-    
+@media only screen and (min-width: 481px) and (max-width:990px) {
+
+    /* Apartat horari*/
+    .horari {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .horari h2 {
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    table {
+        width: 100%;
+        border: 1px solid #717171;
+        box-shadow: 3px 3px #B11F00;
+    }
+
+    th {
+        padding: 5px;
+        font-size: 1.8rem;
+    }
+
+    td {
+        padding: 8px;
+        font-size: 1.6rem;
+        width: auto;
+        height: auto;
+    }
+
+    td div p a {
+        display: none;
+    }
+
+    td div:hover p a {
+        display: block;
+        padding: 5px;
+        font-size: 1.6rem;
+    }
+
+    .navegacion {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .navegacion button {
+        padding: 5px;
+        background-color: #B11F00;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.6rem;
+    }
+
+
+
+
+
+    /* Apartat colorsActivitat*/
+    #preguntes-frequents {
+        width: 100%;
+    }
+
+
+    #totelcontingut {
+        width: 100%;
+        height: auto;
+        padding: 0 1.5rem;
+    }
 }

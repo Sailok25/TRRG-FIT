@@ -93,11 +93,12 @@ nav a:hover::after {
 
 /* Apartat del main */
 main {
-    width: auto;
-    height: auto;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 
 
@@ -105,10 +106,13 @@ main {
 
 /* Apartat section: slideimatge */
 #slideshow {
-    width: 198rem;
+    width: auto;
     height: auto;
     padding: 8rem 1rem 5rem 1rem;
     color: #000000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 #carroimatges{
@@ -155,7 +159,7 @@ main {
 
 /* Apartat section: membresies*/
 #membresies {
-    width: 198rem;
+    width: auto;
     height: auto;
     padding: 15rem 1rem 15rem 1rem;
     color: #000000;
@@ -221,7 +225,7 @@ main {
 
 /* Apartat section: preguntes-frequents */
 #preguntes-frequents {
-    width: 198rem;
+    width: auto;
     height: auto;
     color: #e1e4e7;
     display: flex;
@@ -280,7 +284,7 @@ main {
 
 /* Apartat section: descarregar-app*/
 #descarregar-app {
-    width: 198rem;
+    width: auto;
     height: auto;
     padding: 10rem 1rem 15rem 1rem;
     color: #000000;
@@ -403,7 +407,7 @@ main {
 
 /* Apartat section: maquines-serveis*/
 #maquines-serveis {
-    width: 198rem;
+    width: auto;
     height: auto;
     padding: 10rem 1rem 15rem 1rem;
     color: #000000;
@@ -472,23 +476,23 @@ footer {
 
 
 .linksinfo {
-    width: 118rem;
-    height: 30rem;
+    width: auto;
+    height: auto;
     padding: 2.4rem 0px 2.4rem 0px;
     margin: 0px 6.6rem 0px 6.6rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
 }
 
 
 /* Apartat section: linksinfo */
 .acces {
-    width: 25.7rem;
+    width: auto;
     height: auto;
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
-    margin: 5px 10px 5px 10px;
+    margin: 5px 5rem 5px 5rem;
     padding: 5px 0px 5px 0px;
 }
 
@@ -514,6 +518,17 @@ footer {
 }
 
 
+.acces p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 0px 10px 0px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+
 
 
 /* Apartat section: links-xarxes*/
@@ -525,7 +540,7 @@ footer {
 }
 
 .alineacio-xarxes {
-    width: 118rem;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -534,7 +549,7 @@ footer {
 }
 
 .gym-xarxes {
-    width: 29rem;
+    width: auto;
     display: flex;
     flex-wrap: nowrap;
     margin: 0px 10px 0px 0px;
@@ -559,7 +574,10 @@ footer {
 
 /* MQ Mòvil */
 @media only screen and (max-width: 480px){
-
+    .linksinfo {
+    display: flex;
+    flex-wrap: wrap;
+    }
 }
 
 
