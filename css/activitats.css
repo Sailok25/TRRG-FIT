@@ -25,10 +25,9 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-transform: uppercase;
     text-decoration:underline;
-    text-align: justify;
+    text-align: center;
     color: #B11F00;
     align-self: center;
-    padding-bottom: 2rem;
 }
 
 #conjuntactivitats h2:nth-of-type(2){
@@ -105,6 +104,7 @@
     border-radius: 1rem;
     border: 1px solid #B11F00;
     box-shadow: 4px 1rem #B11F00;
+    background-color: white;
 }
 
 .separadorbtn{

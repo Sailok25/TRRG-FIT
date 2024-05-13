@@ -1,15 +1,15 @@
 /* Apartat dels estils generals */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-#all{
+#all {
     width: 100%;
     background-color: #b3b5b8;
 }
@@ -131,7 +131,8 @@ main {
     object-fit: cover;
 }
 
-.anterior, .seguent {
+.anterior,
+.seguent {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -143,7 +144,8 @@ main {
     transition: background-color 0.3s;
 }
 
-.anterior:hover, .seguent:hover {
+.anterior:hover,
+.seguent:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -187,6 +189,7 @@ main {
     padding: 2rem;
     margin-top: 2rem;
     border-radius: 1.5rem;
+    background-color: white;
     border: 1px solid #B11F00;
     box-shadow: 4px 1rem #B11F00;
     display: flex;
@@ -229,7 +232,7 @@ main {
 
 /* Apartat section: preguntes-frequents */
 #preguntes-frequents {
-    width: auto;
+    width: 100%;
     height: auto;
     color: #e1e4e7;
     display: flex;
@@ -238,7 +241,7 @@ main {
     padding: 5rem 0 5rem 0;
 }
 
-#totelcontingut{
+#totelcontingut {
     width: 85rem;
     height: auto;
 }
@@ -294,7 +297,7 @@ main {
     color: #000000;
     display: flex;
     justify-content: space-evenly;
-
+    align-items: center;
 }
 
 .descapp {
@@ -303,6 +306,7 @@ main {
     padding: 1rem 1rem 1rem 1rem;
     color: #000000;
     align-self: center;
+    text-align: justify;
 }
 
 .descapp p {
@@ -327,20 +331,21 @@ main {
     color: #000000;
 }
 
-.descapp button{
+.descapp button {
     padding: 1rem 4rem;
     font-size: 2rem;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     color: white;
     background-color: #B11F00;
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
     margin-top: 2rem;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    box-shadow: 4px 10px #B11F00;
 }
 
-.descapp button a{
+.descapp button a {
     text-decoration: none;
     /* text-decoration: ; */
     color: white;
@@ -386,14 +391,14 @@ main {
     align-items: center;
 }
 
-.nomcomplet{
+.nomcomplet {
     font-size: 2.5rem;
     font-family: "Oswald", sans-serif;
     color: #000000;
     margin-top: 2rem;
 }
 
-.profe-activitat{
+.profe-activitat {
     font-size: 2.5rem;
     font-family: "Oswald", sans-serif;
     color: #000000;
@@ -412,7 +417,7 @@ main {
 
 /* Apartat section: maquines-serveis*/
 #maquines-serveis {
-    width: auto;
+    width: 100%;
     height: auto;
     padding: 10rem 1rem 15rem 1rem;
     color: #000000;
@@ -462,6 +467,7 @@ main {
     padding-top: 2rem;
     font-size: 2.5rem;
     font-family: "Oswald", sans-serif;
+    font-weight: bold;
     color: #000000;
     align-self: center;
     text-align: center;
@@ -564,7 +570,7 @@ footer {
 
 .gym-xarxes i {
     font-size: 3.3rem;
-    padding: 0px 2rem 0px 2rem;
+    padding: 0px 1rem 0px 1rem;
     color: #B11F00;
 }
 
@@ -578,8 +584,8 @@ footer {
 
 
 /* MQ Mòvil */
-@media only screen and (max-width: 480px){
-    header{
+@media only screen and (max-width: 480px) {
+    header {
         justify-content: space-evenly;
     }
 
@@ -588,19 +594,33 @@ footer {
         height: 100%;
     }
 
-    
-    nav li{
-        padding-bottom: 1rem;
+
+    nav li {
+        padding-bottom: 8px;
         margin: 0;
     }
 
     nav a {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .opcions-premium {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .imgapp {
+        width: auto;
+        height: auto;
+        padding: 1rem 1rem 1rem 1rem;
+        color: #000000;
+        display: none;
     }
 
     .linksinfo {
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
     }
 }
 
@@ -609,10 +629,41 @@ footer {
 
 
 /* MQ Tablet */
-@media only screen and (min-width: 481px) and (max-width:990px){
+@media only screen and (min-width: 481px) and (max-width:990px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .logoemp img {
+        width: 100%;
+    }
+
+
+    nav li {
+        padding: 0px;
+        margin: 0;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    .opcions-premium {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .imgapp {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+        color: #000000;
+    }
+
     .linksinfo {
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
     }
 }
 
@@ -621,6 +672,4 @@ footer {
 
 
 /* MQ Portatil */
-@media only screen and (min-width: 991px) and (max-width:1980px){
-    
-}
+@media only screen and (min-width: 991px) and (max-width:1980px) {}
