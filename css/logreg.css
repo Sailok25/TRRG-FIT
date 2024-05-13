@@ -50,6 +50,7 @@ contingutlogin img {
     height: 4rem;
     border-radius: 2rem;
     margin-bottom: 1.6rem;
+    padding: 5px;
 }
 
 #formularilogin label {

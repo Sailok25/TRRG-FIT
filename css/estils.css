@@ -69,7 +69,7 @@ nav a {
     font-weight: bold;
     font-size: 2rem;
     position: relative;
-    padding: 5px;
+    padding: 7px;
 }
 
 nav a::after {
@@ -107,13 +107,12 @@ main {
 
 /* Apartat section: slideimatge */
 #slideshow {
-    width: auto;
+    width: 90%;
     height: auto;
     padding: 8rem 1rem 5rem 1rem;
     color: #000000;
     display: flex;
     justify-content: center;
-    align-content: center;
 }
 
 #carroimatges {
@@ -482,7 +481,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #343a40;
+    background-color: #191b1e;
 }
 
 
@@ -640,7 +639,7 @@ footer {
 
 
     nav li {
-        padding: 0px;
+        padding: 8px;
         margin: 0;
     }
 
@@ -651,6 +650,10 @@ footer {
     .opcions-premium {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .opcio {
+        margin-top: 5rem;
     }
 
     .imgapp {
@@ -666,10 +669,3 @@ footer {
         text-align: center;
     }
 }
-
-
-
-
-
-/* MQ Portatil */
-@media only screen and (min-width: 991px) and (max-width:1980px) {}

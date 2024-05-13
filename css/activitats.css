@@ -3,7 +3,7 @@
     transition: 0.5s;
 }
 #activitats{
-    width: 198rem;
+    width: 100%;
     height: auto;
     padding: 5rem 0px 10rem 0px;
     
@@ -35,7 +35,7 @@
 }
 
 .activitats-colectives{
-    width: 160rem;
+    width: auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +45,7 @@
 }
 
 .activitats-lliures{
-    width: 160rem;
+    width: auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
