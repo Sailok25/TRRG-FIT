@@ -1,0 +1,151 @@
+/* Section - Discografía de los Sencillos */
+#discografia_sencillos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(../img/background/bg-rallado.png);
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 10rem 0 10rem;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#discografia_sencillos h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 6.4rem;
+    padding: 5rem 0 2rem 0;
+    color: #ff9900;
+}
+
+#lista_sencillos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:6.4rem;
+    justify-content: center;
+}
+
+.detalles_sencillo{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding-bottom: 2.4rem;
+    border-radius: 1.6rem;
+    background-color: #141418;
+    align-items: center;
+}
+
+.foto_sencillo{
+    width: 35rem; 
+    height: 35rem; 
+}
+
+.caratula_sencillo{
+    width: 100%; 
+    height: 100%;
+    border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.nombre_sencillo{
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Bebas Neue';
+}
+
+.album_asociado{
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.plataformas{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.plataformas a{
+    text-decoration: none;
+}
+
+.plataformas a img{
+    width: 4rem;
+    border-radius: 1.6rem;
+    padding: 5px;
+    background-color: #ff9900;
+}
+
+
+
+
+/* Section - Discografía de los Albumes */
+
+#discografia_albumes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(../img/background/bg-rallado.png);
+    background-position: center;
+    background-repeat: repeat;
+    padding: 10rem;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#discografia_albumes h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 6.4rem;
+    padding: 5rem 0 2rem 0;
+    color: #ff9900;
+}
+
+#lista_albumes{
+    display: flex;
+    flex-direction: row;
+    gap:6.4rem;
+    justify-content: center;
+}
+
+.detalles_album{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding-bottom: 2.4rem;
+    border-radius: 1.6rem;
+    background-color: #141418;
+    align-items: center;
+}
+
+.foto_album{
+    width: 35rem; 
+    height: 35rem; 
+}
+
+.caratula_album{
+    width: 100%; 
+    height: 100%;
+    border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.nombre_album{
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Bebas Neue';
+}
+
+.fecha_publicacion{
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    color: #ffffff;
+    text-transform: uppercase;
+}

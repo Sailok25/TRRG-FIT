@@ -1,0 +1,27 @@
+/* Section - Galeria */
+
+#galeria{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/background/bg-rallado.png);
+    background-position: center;
+    background-repeat: repeat;
+    padding: 10rem;
+    align-items: center;
+}
+
+#conjunto-fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:6.4rem;
+    justify-content: center;
+}
+
+.caja-foto{
+    width: 35rem; 
+    height: 35rem; 
+    object-fit: cover;
+}

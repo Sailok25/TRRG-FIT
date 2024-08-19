@@ -1,0 +1,733 @@
+/* Apartat dels estils generals */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: auto;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+
+/* Apartado del header */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logobanda img {
+    width: 20rem;
+    height: auto;
+    padding-left: 2rem;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav a {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    padding: 1.5rem;
+    justify-content: center;
+    display: flex;
+}
+
+nav a:hover {
+    transition: color 0.5s;
+    color: #ff9900;
+}
+
+nav a img{
+    width: 17rem;
+}
+
+
+
+/* Apartado del main */
+main{
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+}
+
+/* Section - Intro */
+
+#intro{
+    width: 100%;
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/background/bg-concierto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portada{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#portada img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+#portada h2{
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+#enfasis{
+    color: #ff9900;
+}
+
+
+
+
+/* Section - Quien Somos */
+#quien_somos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(../img/background/bg-rallado.png);
+    background-position: center;
+    background-repeat: repeat;
+    padding: 6.7rem;
+    justify-content: space-evenly;
+}
+
+#foto_diseno{
+    width: auto;
+}
+
+#foto_diseno img{
+    width: 100%;
+    height: 100%;
+}
+
+#biografia{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+#biografia h2{
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #ff9900;
+    padding-top: 3rem;
+}
+
+#biografia p{
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: mixed;
+    font-size: 2rem;
+    letter-spacing: 2%;
+    line-height: 22.4px;
+    color: white;
+}
+
+#biografia div p{
+    padding-bottom: 1rem;
+}
+
+#biografia hr{
+    width: 35rem;
+    color: white;
+}
+
+#biografia button{
+    width: 22.3rem;
+    height: 6.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: white;
+    background-color: #ff9900;
+    cursor: pointer;
+}
+
+#biografia button:hover{
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+
+
+
+/* Section - Muestra Musica */
+
+#muestra_musica{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/background/bg-rallado.png);
+    background-position: center;
+    background-repeat: repeat;
+    padding: 6.7rem;
+    align-items: center;
+}
+
+#muestra_musica h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 6.4rem;
+    color: #ff9900;
+    padding-bottom: 3rem;
+}
+
+#albumes{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6.4rem;
+    flex-wrap: wrap;
+}
+
+.album{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.6rem;
+    background-color: #141418;
+    align-items: center;
+}
+
+.datos_img{
+    width: 35rem; 
+    height: 35rem;
+}
+
+.caratula{
+    width: 100%; 
+    height: 100%;
+    border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.datos_musica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.album p{
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Bebas Neue';
+}
+
+.icono {
+    width: 4rem;
+}
+
+.ver-mas{
+    width: auto;
+    height: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: white;
+    background-color: #ff9900;
+    cursor: pointer;
+    margin-top: 3rem;
+    padding: 1.6rem 6.4rem 1.6rem 6.4rem;
+}
+
+
+.ver-mas:hover{
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+
+
+
+/* Section - Eventos */
+
+#eventos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/background/bg-concierto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6.7rem;
+    align-items: center;
+}
+
+.tituloapartado{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+    font-size: 6.4rem;
+    color: #ffffff;
+    padding-bottom: 3rem; 
+}
+
+#conjuntoanual{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#ano{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 4rem;
+    padding-bottom: 3rem;
+}
+
+.detallesevento{
+    background-color: #141418;
+    border-radius: 1.2rem;
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.6rem;
+    justify-content: space-evenly
+}
+
+.detalles{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+.mes_dia{
+    width: auto; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mes_dia p{
+    font-size: 2rem;
+    color:#ff9900;
+    font-family: 'Bebas Neue';
+}
+
+.mes_dia p:nth-last-child(){
+    font-size: 3.2rem;
+    color: #ff9900;
+    font-family: 'Bebas Neue';
+}
+
+.ciudad_direccion{
+    width: auto; 
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+    flex-direction: row;
+}
+
+.ciudad_direccion p{
+    font-size: 2.4rem;
+    color: #ffffff;
+    font-family: 'Bebas Neue';
+}
+
+
+
+
+/* Section - Merch */
+#merch{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/background/bg-rallado.png);
+    background-position: center;
+    background-repeat: repeat;
+    padding: 6.5rem;
+    align-items: center;
+}
+
+#productos{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6.4rem;
+    flex-wrap: wrap;
+}
+
+.producto{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.6rem;
+    background-color: #ffffff;
+    align-items: center;
+    gap: 1.6rem;
+    padding-bottom: 3.2rem;
+}
+
+.fotoproducto{
+    width: 32rem; 
+    height: 32rem; 
+    overflow: hidden;
+}
+
+.fotoproducto img{
+    width: 100%; 
+    height: 100%;
+    border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.tituloproducto{
+    color: rgb(0, 0, 0);
+    font-size: 2.4rem;
+    font-family: 'Bebas Neue';
+}
+
+.descripcionproducto{
+    font-size: 1.6rem;
+    font-family: 'Roboto';
+    color: #000000;
+    width: 30rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tallasproducto{
+    font-size: 1.6rem;
+    font-family: 'Roboto';
+    color: #000000;
+}
+
+.botoncompra{
+    width: auto;
+    height: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: white;
+    background-color: #ff9900;
+    cursor: pointer;
+    margin-top: 1.7rem;
+    padding: 1.6rem 6.4rem 1.6rem 6.4rem;
+    border: none;   
+}
+
+.botoncompra:hover{
+    background-color: black;
+    border-radius: 8px;
+    border: 1px solid white;  
+}
+
+
+
+
+/* Apartado del Footer*/
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #0F0F0F;
+}
+
+#contenido_total{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#plataforma_media{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#redes_musica{
+    width: auto; 
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+
+#redes{
+    width: auto; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#redes h2{
+    font-size: 3.2rem;
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    text-align: center;
+}
+
+.gruporedes{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.gruporedes a{
+    text-decoration: none;
+}
+
+.gruporedes a img{
+    width: 4rem;
+    border-radius: 1.6rem;
+    padding: 5px;
+    background-color: #ff9900;
+}
+
+#musica{
+    width: auto; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#musica h2{
+    font-size: 3.2rem;
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    text-align: center;
+}
+
+.grupoplataforma{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.grupoplataforma a{
+    text-decoration: none;
+}
+
+.grupoplataforma a img{
+    width: 4rem;
+    border-radius: 1.6rem;
+    padding: 5px;
+    background-color: #ff9900;
+}
+
+#contenido_total hr{
+    width: 70rem;
+    color: white;  
+}
+
+#donaciones{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#donacion{
+    width: auto; 
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#donacion h2{
+    font-size: 3.2rem;
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    text-align: center;
+}
+
+#donacion a{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border-radius: 8px;
+    color: white;
+    background-color: #ff9900;
+    padding: 5px;
+}
+
+#propiedad{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #000000;
+}
+
+#politicas_terminos{
+    width: auto; 
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20rem;
+    padding-top: 1rem;
+}
+
+#politicas{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 1.6rem;
+}
+
+#politicas a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Oswald';
+    color: #323232;
+    text-align: center;
+}
+
+#terminos{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 1.6rem;
+}
+
+#terminos a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 'Oswald';
+    color: #323232;
+    text-align: center;
+}
+
+#no_copy{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#no_copy p{
+    color: #323232;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Oswald';
+}
+
+#no_copy p a{
+    text-decoration: none;
+    color: #323232;
+}
+
+
+
+
+
+
+
+
+
+
+/*******************/
+/*** MEDIA QUERY ***/
+/*******************/
+
+
+/* MQ Mòvil (pequeño) || 320px - 480px */
+
+/* MQ Mòvil (mediano) || 481px - 768px */
+
+/* MQ Tablet (vertical) || 769px - 1024px */
+
+/* MQ Tablet (horizontal) || 1025px - 1280px */
+
+/* MQ Escritorio (pequeño) || 1281px - 1440px */
+
+/* MQ Escritorio (grande) || 1441px y superiores */

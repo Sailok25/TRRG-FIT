@@ -1,0 +1,61 @@
+#login, #register{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(../img/background/bg-rallado.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+#login-container, #register-container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.6rem;
+    background-color: #141418;
+    align-items: center;
+    gap: 1.6rem;
+    padding: 4.8rem;
+    margin: 5rem 0;
+}
+
+
+#login-container form fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#login-container form fieldset legend{
+    color: white;
+    letter-spacing: 0px;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Oswald';
+}
+
+#login-container form fieldset label{
+    color: #ff9900;
+    font-size: 3rem;
+    font-family: 'Bebas Neue';
+    padding-right: 30rem;
+}
+
+#login-container form fieldset input{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Oswald';
+    margin-bottom: 3rem;
+}
+
+#login-container form fieldset button{
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Oswald';
+    width: fit-content;
+    padding: 1rem;
+}
